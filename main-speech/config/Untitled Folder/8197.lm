@@ -1,0 +1,83 @@
+Language model created by QuickLM on Sat Jun 20 03:41:31 EDT 2015
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 6 sentences and 15 words
+
+\data\
+ngram 1=15
+ngram 2=24
+ngram 3=21
+
+\1-grams:
+-1.1563 </s> -0.3010
+-1.1563 <s> -0.2416
+-1.9345 AT -0.2696
+-1.6335 COULD -0.2908
+-1.9345 CURRENTLY -0.2960
+-1.1563 DHRUV -0.2358
+-1.3324 FIND -0.2530
+-1.9345 FOR -0.2960
+-1.3324 IS -0.2299
+-1.9345 LOCATE -0.2696
+-1.9345 LOCATED -0.2696
+-1.9345 ME -0.2696
+-1.4574 OUT -0.2803
+-1.3324 WHERE -0.2473
+-1.6335 YOU -0.2803
+
+\2-grams:
+-0.7782 <s> COULD 0.0000
+-0.7782 <s> FIND 0.0000
+-1.0792 <s> LOCATE 0.0000
+-1.0792 <s> WHERE -0.2430
+-0.3010 AT </s> -0.3010
+-0.3010 COULD YOU 0.0000
+-0.3010 CURRENTLY LOCATED 0.0000
+-1.0792 DHRUV </s> -0.3010
+-1.0792 DHRUV AT 0.0000
+-1.0792 DHRUV FOR 0.0000
+-0.6021 DHRUV IS -0.0969
+-0.9031 FIND DHRUV -0.2632
+-0.4260 FIND OUT 0.0000
+-0.3010 FOR ME 0.0000
+-0.6021 IS </s> -0.3010
+-0.9031 IS CURRENTLY 0.0000
+-0.9031 IS DHRUV -0.2632
+-0.3010 LOCATE DHRUV -0.2632
+-0.3010 LOCATED </s> -0.3010
+-0.3010 ME </s> -0.3010
+-0.3010 OUT WHERE -0.0969
+-0.4260 WHERE DHRUV -0.1761
+-0.9031 WHERE IS -0.2430
+-0.3010 YOU FIND -0.0969
+
+\3-grams:
+-0.3010 <s> COULD YOU
+-0.6021 <s> FIND DHRUV
+-0.6021 <s> FIND OUT
+-0.3010 <s> LOCATE DHRUV
+-0.3010 <s> WHERE IS
+-0.3010 COULD YOU FIND
+-0.3010 CURRENTLY LOCATED </s>
+-0.3010 DHRUV AT </s>
+-0.3010 DHRUV FOR ME
+-0.4771 DHRUV IS </s>
+-0.7782 DHRUV IS CURRENTLY
+-0.3010 FIND DHRUV </s>
+-0.3010 FIND OUT WHERE
+-0.3010 FOR ME </s>
+-0.3010 IS CURRENTLY LOCATED
+-0.3010 IS DHRUV AT
+-0.3010 LOCATE DHRUV FOR
+-0.3010 OUT WHERE DHRUV
+-0.3010 WHERE DHRUV IS
+-0.3010 WHERE IS DHRUV
+-0.3010 YOU FIND OUT
+
+\end\

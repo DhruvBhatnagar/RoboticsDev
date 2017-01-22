@@ -1,0 +1,78 @@
+Language model created by QuickLM on Mon Jun 22 08:33:41 EDT 2015
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 7 sentences and 16 words
+
+\data\
+ngram 1=16
+ngram 2=22
+ngram 3=17
+
+\1-grams:
+-0.9611 </s> -0.3010
+-0.9611 <s> -0.2507
+-1.8062 DIG -0.2942
+-1.8062 DOWN -0.2507
+-1.8062 FIND -0.2942
+-1.8062 FOR -0.2507
+-1.8062 IDENTIFY -0.2730
+-1.5051 LOCATION -0.2507
+-1.8062 OUT -0.2942
+-1.8062 PINPOINT -0.2730
+-1.8062 SEARCH -0.2942
+-1.2041 THE -0.2352
+-1.8062 TRACK -0.2942
+-1.8062 UNCOVER -0.2730
+-1.8062 UP -0.2730
+-1.8062 WHERE -0.2507
+
+\2-grams:
+-1.1461 <s> DIG 0.0000
+-1.1461 <s> FIND 0.0000
+-1.1461 <s> IDENTIFY 0.0000
+-1.1461 <s> PINPOINT 0.0000
+-1.1461 <s> SEARCH 0.0000
+-1.1461 <s> TRACK 0.0000
+-1.1461 <s> UNCOVER 0.0000
+-0.3010 DIG UP 0.0000
+-0.3010 DOWN </s> -0.3010
+-0.3010 FIND OUT 0.0000
+-0.3010 FOR </s> -0.3010
+-0.3010 IDENTIFY THE -0.1761
+-0.3010 LOCATION </s> -0.3010
+-0.3010 OUT WHERE 0.0000
+-0.3010 PINPOINT THE -0.1761
+-0.3010 SEARCH FOR 0.0000
+-0.6021 THE </s> -0.3010
+-0.6021 THE LOCATION 0.0000
+-0.3010 TRACK DOWN 0.0000
+-0.3010 UNCOVER THE -0.1761
+-0.3010 UP THE -0.1761
+-0.3010 WHERE </s> -0.3010
+
+\3-grams:
+-0.3010 <s> DIG UP
+-0.3010 <s> FIND OUT
+-0.3010 <s> IDENTIFY THE
+-0.3010 <s> PINPOINT THE
+-0.3010 <s> SEARCH FOR
+-0.3010 <s> TRACK DOWN
+-0.3010 <s> UNCOVER THE
+-0.3010 DIG UP THE
+-0.3010 FIND OUT WHERE
+-0.3010 IDENTIFY THE </s>
+-0.3010 OUT WHERE </s>
+-0.3010 PINPOINT THE LOCATION
+-0.3010 SEARCH FOR </s>
+-0.3010 THE LOCATION </s>
+-0.3010 TRACK DOWN </s>
+-0.3010 UNCOVER THE </s>
+-0.3010 UP THE LOCATION
+
+\end\
